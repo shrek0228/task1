@@ -11,11 +11,26 @@
     <script>
         // 
         const url = 'https://api.nasa.gov/planetary/apod?api_key=Jur1b1xkKOkenNuro0eVFrchFmdM932ZhH6bPT91';
-        // 
+        const body = document.querySelector('body')
         const data = fetch(url)
         .then( (response) => response.json() ) 
         .then( (data) => {
             // Здесь ваш код
+            console.log(data)
+            let header = document.createElement('p');
+            header.innerHTML = data['title']
+            let description = document.createElement('textarea');
+            description.innerHTML = data['explanation']
+            description.rows = 20
+            description.cols = 80
+            let image = document.createElement('img');
+            image.src = data['url']
+            let date = document.createElement('h1');
+            date.innerHTML = data['date']
+            body.append(header);
+            body.append(description);
+            body.append(image);
+            body.append(date);
         } )
     </script>
 </body>
