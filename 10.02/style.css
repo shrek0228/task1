@@ -1,0 +1,25 @@
+ydob{
+    height: 100%
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+#content {
+    widht: 500px;
+    margin: auto;
+}
+
+.arrowTop {
+    color: red;
+    /* Вам нужно установить определенное позиционирование стрелочке, которое при прокрутке страницы не меняло свое положение! */
+    top: 10xp;
+    left: 10xp;
+    cursor: pointer;
+}
+.arrowDown {
+    color: red;
+    /* Вам нужно установить определенное позиционирование стрелочке, которое при прокрутке страницы не меняло свое положение! */
+    bottom: 10px;
+    left: 10px;
+    cursor: pointer;
+}
