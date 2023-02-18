@@ -1,25 +1,44 @@
-ydob{
-    height: 100%
+body{
+    height: 100%;
     width: 100%;
     padding: 0;
     margin: 0;
 }
 #content {
-    widht: 500px;
+    width: 500px;
     margin: auto;
 }
 
+
 .arrowTop {
-    color: red;
+    border: thick double red;
+    font-size: large;
+    background: rgb(250, 56, 56, 0.2);
+    color: rgb(111, 72, 0);
+    text-align: center;
+    font-weight: 800;
+    position: sticky;
+    width: 100px;
+    height: 40px;
     /* Вам нужно установить определенное позиционирование стрелочке, которое при прокрутке страницы не меняло свое положение! */
-    top: 10xp;
-    left: 10xp;
+    top: 0%;
+    z-index: 2;
     cursor: pointer;
 }
 .arrowDown {
-    color: red;
+    border: thick double red;
+
+    font-size: large;
+    background: rgb(250, 56, 56, 0.2);
+    color: rgb(111, 72, 0);
+    font-weight: 800;
+
+    text-align: center;
+    position: sticky;
+    width: 100px;
+    height: 40px;
     /* Вам нужно установить определенное позиционирование стрелочке, которое при прокрутке страницы не меняло свое положение! */
-    bottom: 10px;
-    left: 10px;
+    top: 0%;
+    z-index: 2;
     cursor: pointer;
 }
