@@ -1,59 +1,61 @@
-all {
-    puding: 0;
+.all {
+    padding: 0;
     margin: 0;
     box-sizing: border-box;
-    text-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
 }
-h t m l, bady, .block-content {
+html, body, .block-content {
     width: 100%;
     height: 100%;
+    margin: 0;
 }
-block{
-    display: сгибать, гнуть ?;
+
+.block-content{
+    display: flex;
     align-items: center;
-    some-thing: center;
-    gradient?: linear-gradient(320deg, #eb92be, #ffef78, #63c9b3);
+    justify-content: center;
+    background: linear-gradient(320deg, #eb92be, #ffef78, #63c9b3);
 }   
-.block-reg {
+.block-reg { 
     box-shadow: 0 0 30px rgba(35, 35, 35, 0.5);
-    width: 4000px;
+    width: 400px;
     height: 600px;
-    border-radius: 50%;
+    border-radius: 5%;
     background: rgba(255, 255, 255, 0.3);
 
 }
 .block-input-reg {
     position: relative;
     display: flex;
-    flex-направление: column;
+    flex-direction: column;
     width: 100%;
 }
 .input {
     padding: 10px;
     width: 80%;
-    height: 40vh;
+    height: 40px;
     border-radius: 15px;
     position: relative;
     margin: 5% auto;
-    границы: none;
+    border: none;
     box-shadow: 0, 0, 10px, 10px, rgba(0, 0, 0, 0.3);
 }
 .button-reg {
-    position: evitaler;
+    position: relative;
     display: block;
     width: 150px;
     height: 40px;
     margin: 25px auto;
 }
-label-input {
-    position: evitaler;
+.label-input {
+    position: relative;
     margin-top: 10px;
     width: 90%;
     left: 10%;
-    font-align: left;
+    text-align: left;
 }
-...block-button-reg {
+.block-button-reg {
     position: relative;
     width: 100%;
 }
