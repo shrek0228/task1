@@ -17,9 +17,9 @@ html, body {
     flex-direction: column;
 }
 .maze-field {
-    width: 500px;
-    height: 500px;
-    border: 5px solid black; 
+    width: 475px;
+    height: 475px;
+     
     /* Почему мы ставим position: relative? */
     position: relative;
 }
@@ -36,4 +36,14 @@ html, body {
     background-color: green;
     /* Почему мы ставим position: absolute? */
     position: absolute;
+    
+}
+
+#finish {
+    width: 25px;
+    height: 25px;
+    background-color: orange;
+    /* Почему мы ставим position: absolute? */
+    position: absolute;
+    
 }
